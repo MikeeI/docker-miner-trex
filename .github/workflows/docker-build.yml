@@ -5,7 +5,7 @@ on:
       - master
     paths:
       - release-versions/latest.txt
-      - .github/
+      - .github/workflows/docker-build.yml
       - Dockerfile
       - entrypoint.sh
 jobs:
